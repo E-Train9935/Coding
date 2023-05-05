@@ -3,7 +3,7 @@
     <div id="">
       <h1>Find KOAT</h1>
       <p> Your KOAT's current location is long: {{ longitude }} and lat: {{latitude}}. </p>
-      <iframe :src="'https://maps.google.com/maps?q=' + latitude + ',' + longitude + '&t=&z=15&ie=UTF8&iwloc=&output=embed'" id="map"> </iframe>  
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3354.581864534746!2d-117.07191562489076!3d32.776827783996644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d95687950518a7%3A0x2f169612082c5a57!2sSDSU%20College%20of%20Sciences!5e0!3m2!1sen!2sus!4v1683162865386!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
     </div>
     <div>
       <input type="text" id="user-input">

@@ -59,7 +59,10 @@
   </div>
 </template>
 
+
 <script setup>
+//http://3.101.68.31:5000/connection delay for one second if false then I will send a notification
+//if the connection state hasn't changed then do not do anything until it has changed
 import {
   MDBNavbar,
   MDBNavbarToggler,
